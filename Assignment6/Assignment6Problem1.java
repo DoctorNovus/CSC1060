@@ -10,7 +10,7 @@ import java.util.Scanner;
  */
 public class Assignment6Problem1 {
     public static void main(String[] args) {
-        double flipCount = 2000;
+        double flipCount = 2000000;
         double headsCount = 0;
         double tailsCount = 0;
 
