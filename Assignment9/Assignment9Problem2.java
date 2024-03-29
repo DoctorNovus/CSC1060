@@ -25,12 +25,12 @@ public class Assignment9Problem2 {
             scores[i] = input.nextInt();
         }
 
-        sortStudents(students, scores);
+        String[] sortedStudents = sortStudents(students, scores);
 
         System.out.println("----- Students Sorted by Grade -----");
 
-        for (int i = 0; i < students.length; i++)
-            System.out.println(String.format("Student: %s - Score: %d", students[i], scores[i]));
+        for (int i = 0; i < sortedStudents.length; i++)
+            System.out.println(String.format("Student: %s - Score: %d", sortedStudents[i], scores[i]));
 
         System.out.println("----- Students Sorted by Grade -----");
     }
@@ -41,7 +41,7 @@ public class Assignment9Problem2 {
      * @param students Students to sort
      * @param scores   Scores associated to students
      */
-    public static void sortStudents(String[] students, int[] scores) {
+    public static String[] sortStudents(String[] students, int[] scores) {
         for (int i = 0; i < scores.length; i++) {
             int maxScore = scores[i];
             int maxIndex = i;
@@ -66,5 +66,7 @@ public class Assignment9Problem2 {
                 scores[i] = maxScore;
             }
         }
+
+        return students;
     }
 }
