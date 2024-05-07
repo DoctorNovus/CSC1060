@@ -21,7 +21,7 @@ public class SortingMenu {
 
         long startTime = UtilityTimer.getTime();
 
-        switch (sortingMethod) {
+        switch (sortingMethod.toLowerCase()) {
             case "a":
                 System.out.println("Running merge sort on data.");
                 MergeSort.sort(items);
