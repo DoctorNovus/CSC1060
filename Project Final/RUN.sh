@@ -1,0 +1,1 @@
+/usr/bin/env /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin/java -XX:+ShowCodeDetailsInExceptionMessages -cp /Users/hiro/Library/Application\ Support/Code/User/workspaceStorage/01908f8503dcc34fe1c23991f6f361d9/redhat.java/jdt_ws/Project\ Final_4c119e16/bin src.edu.csc1060.ProjectCore
